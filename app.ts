@@ -1,8 +1,8 @@
 import express from "express";
 import bodyParser from 'body-parser';
 
-import register from './routes/register';
-import auth from './routes/auth';
+import register from './routes/register.routes';
+import auth from './routes/auth.routes';
 
 import dotenv from "dotenv";
 dotenv.config();
