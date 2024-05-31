@@ -1,9 +1,6 @@
-const bcrypt = require("bcryptjs");
-const db = require('../config/db');
 import { Request, Response } from "express";
 import CustomerRepository from '../repositories/customerRepositories';
 import middlewareToken from '../middleware/middlewareToken'
-import Auth from "../Dto/authDto";
 import Customer from "../Dto/customerDto";
 
 let auth = async (req: Request, res: Response) => {
